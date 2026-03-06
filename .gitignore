@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data (store elsewhere)
+data/
+*.jsonl
+*.parquet
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Claude
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
